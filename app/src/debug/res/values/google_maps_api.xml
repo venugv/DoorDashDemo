@@ -1,0 +1,19 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=BA:B1:D5:59:EB:6C:23:AE:D5:2A:4C:B5:C3:70:D2:79:8F:2E:90:BA%3Bcom.example.doordashclient
+
+    You can also add your credentials to an existing key, using this line:
+    BA:B1:D5:59:EB:6C:23:AE:D5:2A:4C:B5:C3:70:D2:79:8F:2E:90:BA;com.example.doordashclient
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">PUT YOUR KEY HERE</string>
+</resources>

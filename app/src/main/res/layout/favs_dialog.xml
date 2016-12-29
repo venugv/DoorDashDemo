@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:background="@color/off_white"
+                android:layout_height="match_parent"
+                tools:context="com.example.doordashclient.ui.SearchActivity">
+    
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/choice_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/off_white"
+        android:clickable="true"
+        android:clipToPadding="false"
+        android:dividerHeight="0dp"
+        android:focusable="true"
+        android:paddingTop="8dp">
+    </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/btnClose"
+        android:background="@drawable/custom_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/choice_recycler_view"
+        android:textColor="@android:color/secondary_text_dark"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/closeButtonTitle" />
+
+</RelativeLayout>

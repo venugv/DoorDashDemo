@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DoorDashClient</string>
+    <string name="title_activity_search">Restaurants Near You</string>
+    <string name="favs">Favs</string>
+    <string name="list">Results</string>
+    <string name="closeButtonTitle">Close</string>
+    <string name="favsDialogTitle">Favorites</string>
+</resources>
